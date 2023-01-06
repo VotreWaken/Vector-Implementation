@@ -46,7 +46,7 @@ Iterator-Based Constructor
 Деструктор в своей реализации использует Custom Deleter который с помощью unique_ptr удаляет выдяляемую память 
 Также используется SFINAE которое если у элементов нет своего деструктора удаляет их  
 
-#SFINAE ( substitution failure is not an error )
+# SFINAE ( substitution failure is not an error )
 
 
 При тестах обнаружил что метод push_back работает быстрее чем в vector из STL 
